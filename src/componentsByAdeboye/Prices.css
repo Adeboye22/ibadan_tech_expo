@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Jost:wght@200;300;400;500;700;800&display=swap');
+/* Styling for Prices */
+
+:root{
+    --firstColor: #224093;
+    --secondColor: #FED062;
+    --thirdColor: #FDB915;
+}
+.prices-span{
+    text-align: center;
+    color: var(--firstColor);
+    font-family: jost;
+    font-size: 35px;
+    font-weight: 700;
+}
