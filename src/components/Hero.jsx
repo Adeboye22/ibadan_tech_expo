@@ -3,6 +3,7 @@ import Star from '../assets/hero/star.svg'
 import Line from '../assets/hero/line.svg'
 import Bgs from '../assets/hero/ibd.svg'
 import CountDown from '../components/CountDown'
+import Header from './Header'
 
 
 const heroData = [
@@ -18,6 +19,7 @@ const heroData = [
 const Hero = () => {
     return (
         <section>
+          <Header />
             {heroData.map((data, i) => {
               const { mainImg, ibdImg, edition, midImg, date } = data
               return (
