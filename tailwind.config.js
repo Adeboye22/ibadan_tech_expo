@@ -20,6 +20,9 @@ export default {
       xl: '1280px',
     },
     extend: {
+      animation: {
+        'spin-slow': 'spin 3s linear infinite',
+      },
       colors: {
         primary: '#224093',
         accent: '#00A877',
