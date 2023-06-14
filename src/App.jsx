@@ -5,7 +5,7 @@ import Sponsors from './componentsByAdeboye/Sponsors'
 import Prices from './componentsByAdeboye/Prices'
 import Partners from './componentsByAdeboye/Partners'
 import MediaPartners from './componentsByAdeboye/MediaPartners'
-import Footer from './componentsByAdeboye/Footer'
+import Footer from './components/Footer'
 
 
 

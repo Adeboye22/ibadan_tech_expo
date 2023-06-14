@@ -22,11 +22,11 @@ const Hero = () => {
           <Header />
             {heroData.map((data, i) => {
               const { mainImg, ibdImg, edition, midImg, date } = data
-              return (
-                <div key={i} className='h-[850px] bg-right bg-cover w-full pt-[120px] pb-[150px]'>
+              return ( 
+                <div key={i} className='h-[850px] bg-right bg-cover w-full pt-[100px] md:pt-[120px] pb-[150px]'>
                   <div className='container mx-auto'>
                     <div className='flex items-center lg:ml-[200px] my-3'>
-                      <img className='lg:h-[150px] lg:w-[645px]' src={mainImg} alt="" />
+                      <img className='h-[70px] md:h-[130px] lg:h-[150px] lg:w-[645px]' src={mainImg} alt="" />
                     </div>
 
                     <div>
