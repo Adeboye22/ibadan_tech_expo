@@ -20,7 +20,7 @@ const Speakers = () => {
         // ];
       
         // const [activeImage, setActiveImage] = useState(null);
-      
+      // const [activeImage, setActiveImage] = useState(null);
         // const handleImageHover = (index) => {
         //   setActiveImage(index);
         // };
