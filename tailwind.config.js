@@ -10,7 +10,7 @@ export default {
     },
     container: {
       padding: {
-        DEFAULT: '1.5rem',
+        DEFAULT: '3.5rem',
       },
     },
     screens: {
