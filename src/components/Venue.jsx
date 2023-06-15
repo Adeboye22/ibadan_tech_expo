@@ -11,7 +11,7 @@ const Venue = () => {
     return (
         <section>
             <div className='w-full'>
-                <img className='border-b-2 border-secondary relative' src={Logo} alt="" />
+                <img src={Logo} alt="" />
             </div>
 
             <div className="">
