@@ -24,9 +24,9 @@ const Venue = () => {
                 <h1 className=''>International Conference Center <br /> University of Ibadan (ICC)</h1> 
             </div>
 
-            <div className=''>
+            <div className='flex'>
                 <img src={Line} alt="" />
-                <div>
+                <div className='flex flex-col-reverse'>
                     <img src={Star} alt="" />
                     <h1>VENUE</h1>
                 </div>

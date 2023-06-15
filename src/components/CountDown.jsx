@@ -5,7 +5,7 @@ import Line from '../assets/countdown/line.svg'
 
 const futureDate = add(new Date(), {
     days: 17,
-    hours: 22,
+    hours: 22, 
     minutes: 50
 })
 
