@@ -16,12 +16,12 @@ const Venue = () => {
 
             <div className="">
                 <img className='' src={One} alt="" />
-                <img className='' src={Two} alt="" />
+                <img className='' src={Two} alt="" /> 
                 <img className='' src={Three} alt="" />
                 <img className='' src={Four} alt="" />
             </div>
             <div className=''>
-                <h1 className=''>International Conference Center <br /> University of Ibadan (ICC)</h1>
+                <h1 className=''>International Conference Center <br /> University of Ibadan (ICC)</h1> 
             </div>
 
             <div className=''>
