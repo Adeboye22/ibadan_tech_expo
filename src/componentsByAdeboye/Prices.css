@@ -174,7 +174,7 @@
     font-weight: 600;
 }
 .standard-ticket{
-    margin-bottom: 2em;
+    margin-bottom: 1em;
     font-family: jost;
     font-weight: 800;
     font-size: 25px;
@@ -182,19 +182,19 @@
 .prices-span-enhanced-access{
     text-align: justify;
     font-family: jost;
-    font-size: 14px;
+    font-size: 13px;
     margin-bottom: 2em;
 }
 .prices-exclusive-workshops{
     text-align: justify;
     font-family: jost;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 2em;
 }
 .prices-jeff-exciting-gifts{
     text-align: justify;
     font-family: jost;
-    font-size: 12px;
+    font-size: 13px;
     margin-bottom: 2em;
 }
 .price-btn-jeff-bezos{
