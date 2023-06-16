@@ -32,12 +32,12 @@
     transition: ease-in-out 1s;
 }
 .prices-box-1:hover{
-    box-shadow: 7px 7px rgba(0, 0, 0, 0.265);
+    background-color: green;
+    color: white;
 }
 .mark-zuck{
     font-family: jost;
     font-size: 12px;
-    color: black;
     font-weight: 600;
 }
 .reg-ticket{
@@ -91,7 +91,7 @@
     transition: ease-in-out 1s;
 }
 .prices-box-2:hover{
-    box-shadow: 7px 7px rgba(0, 0, 0, 0.265);
+    background-color: var(--thirdColor);
 }
 .elon-musk{
     font-family: jost;
@@ -104,7 +104,7 @@
     font-family: jost;
     font-weight: 800;
     font-size: 25px;
-    color: var(--firstColor)
+    color: var(--firstColor);
 }
 .prices-span-exclusive-access{
     text-align: justify;
@@ -165,12 +165,12 @@
     transition: ease-in-out 1s;
 }
 .prices-box-3:hover{
-    box-shadow: 7px 7px rgba(0, 0, 0, 0.265);
+    background-color: var(--firstColor);
+    color: white;
 }
 .jeff-bezos{
     font-family: jost;
     font-size: 12px;
-    color: black;
     font-weight: 600;
 }
 .standard-ticket{
