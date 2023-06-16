@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Jost:wght@200;300;400;500;700;800&display=swap');
+/* Styling for Prices */
+
+:root{
+    --firstColor: #224093;
+    --secondColor: #FED062;
+    --thirdColor: #FDB915;
+}
+.prices-span{
+    text-align: center;
+    margin-left: 7em;
+    color: var(--firstColor);
+    font-family: jost;
+    font-size: 35px;
+    font-weight: 700;
+}
+.prices-col-1{
+    display: flex;
+    flex-direction: row;
+    margin: 7em 5em;
+    justify-content: space-between;
+}
+/* mark zuckerberg ticket*/
+.prices-box-1{
+    background: white;
+    border-radius: 15px;
+    padding: 10px 20px 10px 10px;
+    width: 70em;
+    height: 35em;
+    margin-top: 2em;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.265);
+    transition: ease-in-out 1s;
+}
+.prices-box-1:hover{
+    background-color: green;
+    color: white;
+}
+.mark-zuck{
+    font-family: jost;
+    font-size: 12px;
+    font-weight: 600;
+}
+.reg-ticket{
+    margin-bottom: 2em;
+    font-family: jost;
+    font-weight: 800;
+    font-size: 25px;
+}
+.prices-span-full-access{
+    text-align: justify;
+    font-family: jost;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+.prices-networking-opp{
+    text-align: justify;
+    font-family: jost;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.prices-exciting-gifts{
+    text-align: justify;
+    font-family: jost;
+    font-size: 16px;
+}
+.price-btn-mark-zuck{
+    margin-top: 4.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price-price-mark-zuck{
+    font-family: jost;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.get-mark-zuck-ticket{
+    border-radius: 15px;
+    background: var(--thirdColor);
+    padding: 10px 20px;
+    font-family: jost;
+}
+/* elon musk ticket */
+.prices-box-2{
+    background: var(--secondColor);
+    border-radius: 15px;
+    padding: 10px 20px 10px 10px;
+    width: 70em;
+    margin-left: 30px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.265);
+    transition: ease-in-out 1s;
+}
+.prices-box-2:hover{
+    background-color: var(--thirdColor);
+}
+.elon-musk{
+    font-family: jost;
+    font-size: 12px;
+    color: var(--firstColor);
+    font-weight: 600;
+}
+.vip-ticket{
+    margin-bottom: 2em;
+    font-family: jost;
+    font-weight: 800;
+    font-size: 25px;
+    color: var(--firstColor);
+}
+.prices-span-exclusive-access{
+    text-align: justify;
+    font-family: jost;
+    font-size: 12px;
+    margin-bottom: 2em;
+    color: var(--firstColor);
+}
+.prices-priority-seat{
+    text-align: justify;
+    font-family: jost;
+    font-size: 12px;
+    margin-bottom: 2em;
+    color: var(--firstColor);
+}
+.prices-premium-perks{
+    text-align: justify;
+    font-family: jost;
+    font-size: 12px;
+    margin-bottom: 2em;
+    color: var(--firstColor);
+}
+.prices-luxurious-haven{
+    text-align: justify;
+    font-family: jost;
+    font-size: 12px;
+    margin-bottom: 2em;
+    color: var(--firstColor); 
+}
+.price-btn-elon-musk{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.price-price-elon-musk{
+    font-family: jost;
+    font-weight: 800;
+    margin-top: 10px;
+    color: var(--firstColor)
+}
+.get-elon-musk-ticket{
+    border-radius: 15px;
+    background: var(--firstColor);
+    padding: 10px 20px;
+    color: white;
+    font-family: jost;
+}
+/* jeff bezos ticket */
+.prices-box-3{
+    background: white;
+    border-radius: 15px;
+    padding: 10px 20px 10px 10px;
+    width: 70em;
+    height: 35em;
+    margin-top: 2em;
+    margin-left: 30px;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.265);
+    transition: ease-in-out 1s;
+}
+.prices-box-3:hover{
+    background-color: var(--firstColor);
+    color: white;
+}
+.jeff-bezos{
+    font-family: jost;
+    font-size: 12px;
+    font-weight: 600;
+}
+.standard-ticket{
+    margin-bottom: 1em;
+    font-family: jost;
+    font-weight: 800;
+    font-size: 25px;
+}
+.prices-span-enhanced-access{
+    text-align: justify;
+    font-family: jost;
+    font-size: 13px;
+    margin-bottom: 2em;
+}
+.prices-exclusive-workshops{
+    text-align: justify;
+    font-family: jost;
+    font-size: 13px;
+    margin-bottom: 2em;
+}
+.prices-jeff-exciting-gifts{
+    text-align: justify;
+    font-family: jost;
+    font-size: 13px;
+    margin-bottom: 2em;
+}
+.price-btn-jeff-bezos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3em;
+}
+.price-price-jeff-bezos{
+    font-family: jost;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.get-jeff-bezos-ticket{
+    border-radius: 15px;
+    background: var(--thirdColor);
+    padding: 10px 20px;
+    color: black;
+    font-family: jost;
+}
