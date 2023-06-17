@@ -6,8 +6,8 @@ import Prices from './componentsByAdeboye/Prices'
 import Partners from './componentsByAdeboye/Partners'
 import Footer from './components/Footer'
 import Speakers from './components/Speakers'
-import MediaPart from './components/MediaPart'
 import Prizes from './componentsByAdeboye/Prizes'
+import MediaPartners from './componentsByAdeboye/MediaPartners'
 
 
 
@@ -23,7 +23,7 @@ function App() {
         <Prizes />
         <Sponsors />
         <Partners />
-        <MediaPart />
+        <MediaPartners />
         <Footer />
     </div>
   )
