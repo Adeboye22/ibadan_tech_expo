@@ -33,7 +33,7 @@ const Hero = () => {
                       <Features />
                     </div>
                     <div>
-                      <img src={ibdImg} alt="" />
+                      <img className='w-full' src={ibdImg} alt="" />
                     </div>
 
                     <div className='flex flex-col justify-center items-center md:flex-row my-3'>
