@@ -27,7 +27,7 @@ const Speakers = () => {
 
     return (
         <div className=' h-full bg-background'>
-          <section style={{}} className='mx-20 h-full'>
+          <section style={{}} className='container mx-auto h-full'>
             <section className='flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary'>
                     <h1 className=' sm:text-4xl lg:text-7xl font-extrabold'>SPEAKERS</h1>
                     <p className='text-xs font-medium'>VIEW ALL SPEAKER </p> 

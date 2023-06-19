@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import { ChevronLeft, ChevronRight } from "react-feather";
+import { ChevronLeft, ChevronRight } from "react-feather"; 
 import line from "../assets/hero/Ibadantechexpo/Line 9.png"
 
 export default function Carousel({ children: slides, autoSlide = false, autoSlideInterval = 3000 }) {
