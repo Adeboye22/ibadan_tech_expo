@@ -23,9 +23,9 @@ const Venue = () => {
                 <div className="pt-12">
                     <Carousel autoSlide={true}>
                         {
-                            slides.map((s) => {
-                                <img src={s}/>
-                            })
+                            slides.map((s, i) => (
+                                <img key={i} src={s} />
+                            ))
                         }
                     </Carousel>
                 </div>
