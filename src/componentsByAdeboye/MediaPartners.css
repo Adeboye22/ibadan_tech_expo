@@ -11,8 +11,8 @@
 .mediaPartners{
     display: flex;
     flex-direction: row;
-    margin: 0em 0em 4em;
-    justify-content: space-evenly;
+    gap: 0 6rem;
+    margin: 0em 0em 4em; 
 }
 img{
     width: 10em;

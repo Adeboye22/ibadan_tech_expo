@@ -15,7 +15,7 @@ const slides =
 const Venue = () => {
     return (
         <div className="bg-background">
-          <section className='mx-20'>
+          <section className='container mx-auto'>
              <section className='flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary'>
                     <h1 className='text-7xl font-extrabold'>VENUE</h1>
                 </section>
@@ -23,22 +23,14 @@ const Venue = () => {
                 <div className="pt-12">
                     <Carousel autoSlide={true}>
                         {
-                            slides.map((s) => (
-                                <img src={s}/>
+                            slides.map((s, i) => (
+                                <img key={i} src={s} />
                             ))
                         }
                     </Carousel>
                 </div>
             </section>
         </div>
-import Logo from '../assets/venue/venue.svg'
-const Venue = () => {
-    return (
-        <section>
-            <div>
-                <img src={Logo} alt="" />
-            </div>
-        </section>
     )
 }
 

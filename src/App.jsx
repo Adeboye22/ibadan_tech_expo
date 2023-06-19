@@ -7,7 +7,6 @@ import Sponsors from './componentsByAdeboye/Sponsors'
 import Prices from './componentsByAdeboye/Prices'
 import Partners from './componentsByAdeboye/Partners'
 import Footer from './components/Footer'
-import Speakers from './components/Speakers'
 import Prizes from './componentsByAdeboye/Prizes'
 import MediaPartners from './componentsByAdeboye/MediaPartners'
 
@@ -16,9 +15,6 @@ function App() {
 
   return (
     <div className='max-w-[1440px] mx-auto bg-background overflow-hidden relative'>
-        {/* <Hero /> */}
-        <Speakers />
-        {/* <Venue /> */}
         <Hero />
         <About />
         <Speakers />
