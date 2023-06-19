@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Jost:wght@200;300;400;500;700;800&display=swap');
+/* design codebase for mediaPartners */
+
+.mediaPartner-h1{
+    margin: 5em 2em 1em;
+    font-family: jost;
+    font-size: 35px;
+    font-weight: 800;
+    color: #224093;
+}
+.mediaPartners{
+    display: flex;
+    flex-direction: row;
+    margin: 0em 0em 4em;
+    justify-content: space-evenly;
+}
+img{
+    width: 10em;
+    height: 10em;
+}
+
+/* responsive designs for mobile */
+@media only screen and (max-width: 600px){
+    .mediaPartner-h1{
+        margin: 5em 20px 1em;
+        font-family: jost;
+        font-size: 35px;
+        font-weight: 800;
+        color: #224093;
+    }
+    .mediaPartners{
+        display: flex;
+        flex-direction: row;
+        margin: 0em 0em 4em;
+        justify-content: space-evenly;
+    }
+    img{
+        width: 5em;
+        height: 5em;
+    }
+}

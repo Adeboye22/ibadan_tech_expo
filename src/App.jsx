@@ -1,6 +1,16 @@
 import Hero from './components/Hero'
 import Speakers from './components/Speakers'
 import Venue from './components/Venue'
+import About from './components/About'
+import Ticket from './componentsByAdeboye/Ticket'
+import Sponsors from './componentsByAdeboye/Sponsors'
+import Prices from './componentsByAdeboye/Prices'
+import Partners from './componentsByAdeboye/Partners'
+import Footer from './components/Footer'
+import Speakers from './components/Speakers'
+import Prizes from './componentsByAdeboye/Prizes'
+import MediaPartners from './componentsByAdeboye/MediaPartners'
+
 
 function App() {
 
@@ -9,7 +19,16 @@ function App() {
         {/* <Hero /> */}
         <Speakers />
         {/* <Venue /> */}
-
+        <Hero />
+        <About />
+        <Speakers />
+        <Ticket />
+        <Prices />
+        <Prizes />
+        <Sponsors />
+        <Partners />
+        <MediaPartners />
+        <Footer />
     </div>
   )
 }

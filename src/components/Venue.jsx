@@ -1,5 +1,4 @@
 import Carousel from "./Carousel"
-
 import vn1 from "../assets/hero/Ibadantechexpo/Component 58.png"
 import vn2 from "../assets/hero/Ibadantechexpo/Component 59.png"
 import vn3 from "../assets/hero/Ibadantechexpo/Component 60.png"
@@ -32,6 +31,14 @@ const Venue = () => {
                 </div>
             </section>
         </div>
+import Logo from '../assets/venue/venue.svg'
+const Venue = () => {
+    return (
+        <section>
+            <div>
+                <img src={Logo} alt="" />
+            </div>
+        </section>
     )
 }
 
