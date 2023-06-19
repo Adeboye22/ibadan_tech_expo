@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Jost:wght@200;300;400;500;700;800&display=swap');
+
+.prizes{
+    background:linear-gradient(45deg, #132351 80%, rgba(255, 0, 0, 0.58) ); 
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+    margin-bottom: -50px;
+}
+.prizes-col-1{
+    font-family: jost;
+    color: white;
+    margin-top: 8em;
+    padding-left: 30px;
+}
+.tech-prizes{
+    font-weight: 800;
+    font-size: 40px;
+}
+.tech-prizes-text{
+    font-size: 16px;
+    text-align: left;
+}
+.prizes-col-2{
+    display: flex;
+}
+.img-laptop{
+    width: 10em;
+    height:10em;
+    margin-top: 12em;
+    object-position: 10px;
+    transition:0.5s ease-in-out ;
+}
+.img-laptop:hover{
+    transform-style: preserve-3d;
+    transform:rotate3d(1, 1, 1, 30deg) ;
+
+}
+.img-girlie{
+    width: 50em;
+    height: 25em;
+    object-position: 30px;
+}
+.img-watch{
+    width: 10em;
+    height: 10em;
+    transition:0.5s ease-in-out ;
+}
+.img-watch:hover{
+    transform-style: preserve-3d;
+    transform:rotate3d(1, 1, 1, -30deg)
+}
+
+/* mobile responsiveness */
+@media only screen and (max-width: 600px){
+    .prizes{
+        background:linear-gradient(45deg, #132351 80%, rgba(255, 0, 0, 0.58) ); 
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-bottom: -30px;
+    }
+    .prizes-col-1{
+        font-family: jost;
+        color: white;
+        margin-top: 3em;
+        padding: 20px;
+    }
+    .tech-prizes{
+        font-weight: 800;
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .tech-prizes-text{
+        font-size: 20px;
+        text-align:left;
+        line-height: 1.5em;
+    }
+    .prizes-col-2{
+        display: flex;
+    }
+    .img-laptop{
+        width: 4em;
+        height: 4em;
+        margin-top: 7em;
+        object-position: 0px;
+        transition:0.5s ease-in-out ;
+    }
+    .img-laptop:hover{
+        transform-style: preserve-3d;
+        transform:rotate3d(1, 1, 1, 30deg) ;
+    
+    }
+    .img-girlie{
+        width: 15em;
+        height: 15em;
+        object-position: 0px;
+    }
+    .img-watch{
+        width: 4em;
+        height: 3em;
+        transition:0.5s ease-in-out ;
+    }
+    .img-watch:hover{
+        transform-style: preserve-3d;
+        transform:rotate3d(1, 1, 1, -30deg)
+    }
+
+}

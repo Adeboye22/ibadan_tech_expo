@@ -4,6 +4,7 @@ import Line from '../assets/hero/line.svg'
 import Bgs from '../assets/hero/ibd.svg'
 import CountDown from '../components/CountDown'
 import Header from './Header'
+import Features from './Features'
 
 
 const heroData = [
@@ -26,11 +27,13 @@ const Hero = () => {
                 <div key={i} className='h-[850px] bg-right bg-cover w-full pt-[100px] md:pt-[120px] pb-[150px]'>
                   <div className='container mx-auto'>
                     <div className='flex items-center lg:ml-[200px] my-3'>
-                      <img className='h-[70px] md:h-[130px] lg:h-[150px] lg:w-[645px]' src={mainImg} alt="" />
+                      <img className='h-[70px] md:h-[130px] lg:h-[150px] lg:w-[645px] mb-3' src={mainImg} alt="" />
                     </div>
-
                     <div>
-                      <img src={ibdImg} alt="" />
+                      <Features />
+                    </div>
+                    <div>
+                      <img className='w-full' src={ibdImg} alt="" />
                     </div>
 
                     <div className='flex flex-col justify-center items-center md:flex-row my-3'>
