@@ -3,6 +3,7 @@ import vn1 from "../assets/hero/Ibadantechexpo/Component 58.png"
 import vn2 from "../assets/hero/Ibadantechexpo/Component 59.png"
 import vn3 from "../assets/hero/Ibadantechexpo/Component 60.png"
 import vn4 from "../assets/hero/Ibadantechexpo/Component 61.png"
+import sp1 from "../assets/hero/speaker2.png"
 
 const slides = 
 [
@@ -24,7 +25,7 @@ const Venue = () => {
                     <Carousel autoSlide={true}>
                         {
                             slides.map((s, i) => (
-                                <img key={i} src={s} />
+                                <img style={{"height" : "100%", "width" : "100%"}} key={i} src={s} />
                             ))
                         }
                     </Carousel>
@@ -35,3 +36,5 @@ const Venue = () => {
 }
 
 export default Venue
+
+

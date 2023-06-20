@@ -1,6 +1,6 @@
 import Tit from '../assets/about/tit.svg'
 import Rec from '../assets/about/rec.svg'
-import Venue from '../components/Venue'
+
 const aboutData = [
     {
         titleImg: Tit,
@@ -28,7 +28,6 @@ const About = () => {
                     )
                 })}
 
-                <Venue />
             </div> 
         </section>
     )
