@@ -1,6 +1,5 @@
-import React from 'react'
 import './Ticket.css'
-import Elon from '../assets/tickets/Elon.png'
+import Tickets from '../assets/tickets/tickets.svg'
 
 const Ticket = () => {
   return (
@@ -13,7 +12,7 @@ const Ticket = () => {
             <p className='tickets-col-1-a-p'>Secure your preferred ticket now and immerse yourself in the world of tech innovation, networking with industry experts, and the chance to win exciting tech gadgets.
             </p>
         </div>
-        <div className='tickets-col-1-b'><img src={Elon} alt="" className='tickets-col-1-img'/></div>
+        <div className='tickets-col-1-b'><img src={Tickets} alt="" className='tickets-col-1-img'/></div>
       </div>
     </div>
   )
