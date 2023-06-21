@@ -1,15 +1,10 @@
-import React, { useState } from 'react';
-
 import "./css/speakers.css"
-
 import sp1 from '../assets/hero/Speaker 1 Color.png'
 import sp2 from '../assets/hero/Speaker  2 Color.png'
 import sp3 from '../assets/hero/Speaker 3 Color.png'
 import sp4 from '../assets/hero/Speaker4 Color.png'
 import sp5 from '../assets/hero/Speaker 6 Color.png'
 import sp6 from '../assets/hero/Rectangle22.png'
-import circle from '../assets/hero/Ellipse2.png'
-import arrow from '../assets/hero/Vector.png'
 
 const Speakers = () => {
 

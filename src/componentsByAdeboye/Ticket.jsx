@@ -10,8 +10,7 @@ const Ticket = () => {
       <div className='tickets-col-1'>
         <div className='tickets-col-1-a'>
             <span className='tickets-col-1-a-span'><strong>Grab Your Exclusive Tickes <br /> Now At An Unbeatable Price!</strong></span>
-            <p className='tickets-col-1-a-p'>Secure your preferred ticket now and immerse yourself in the world of tech innovation, networking with industry experts, and the chance to win exciting tech gadgets.<br/>
-            But that's not all! We've made it even more convenient for you to grab your ticket. Visit our approved physical location to purchase your ticket and ensure your spot at the event.
+            <p className='tickets-col-1-a-p'>Secure your preferred ticket now and immerse yourself in the world of tech innovation, networking with industry experts, and the chance to win exciting tech gadgets.
             </p>
         </div>
         <div className='tickets-col-1-b'><img src={Elon} alt="" className='tickets-col-1-img'/></div>
