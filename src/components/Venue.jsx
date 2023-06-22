@@ -18,10 +18,10 @@ const Venue = () => {
         <div className="bg-background">
           <section className='container mx-auto'>
              <section className='flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary'>
-                    <h1 className='text-7xl font-extrabold'>VENUE</h1>
+                    <h1 className= ' sm:text-6xl lg:text-7xl font-extrabold'>VENUE</h1>
                 </section>
 
-                <div className="pt-12">
+                <div className=" sm:pt-10 lg:pt-12">
                     <Carousel autoSlide={true}>
                         {
                             slides.map((s, i) => (
