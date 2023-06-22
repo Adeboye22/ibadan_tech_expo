@@ -12,13 +12,13 @@ const aboutData = [
 const About = () => {
     return (
         <section>
-            <div className="mx-auto container mt-[50px] md:mt-[160px] lg:mt-[380px] mb-10">
+            <div className="mx-auto container mt-[50px] md:mt-[160px] lg:mt-[480px] mb-10">
                 {aboutData.map((data, i)=> {
                     const { titleImg, desc, descImg } = data
                     return (
                         <div key={i} className="flex flex-col md:flex-row items-center">
                             <div className='w-full'> 
-                                <img className='border-b-2 border-secondary relative' src={titleImg} alt="" />
+                                <img className='border-b-2 border-secondary relative w-full' src={titleImg} alt="" />
                                 <p className='text-[10px] lg:text-[18px] text-primary font-medium lg:w-[600px] leading-5 my-6'>{desc}</p>
                             </div>
                             <div className='bg-[#D9D9D9] h-[300px] w-[800px] lg:h-[500px] lg:w-[1000px]'>
@@ -27,8 +27,6 @@ const About = () => {
                         </div>
                     )
                 })}
-
-
             </div> 
         </section>
     )

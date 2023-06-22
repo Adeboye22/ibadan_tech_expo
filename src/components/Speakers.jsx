@@ -1,15 +1,11 @@
-import React, { useState } from 'react';
-
 import "./css/speakers.css"
+import sp1 from '../assets/hero/oloye.svg'
+import sp2 from '../assets/hero/speaker2.svg'
+import sp3 from '../assets/hero/speaker3.svg'
+import sp4 from '../assets/hero/lerry.svg'
+import sp5 from '../assets/hero/speaker4.svg'
+import sp6 from '../assets/hero/speaker4.svg'
 
-import sp1 from '../assets/hero/Speaker 1 Color.png'
-import sp2 from '../assets/hero/Speaker  2 Color.png'
-import sp3 from '../assets/hero/Speaker 3 Color.png'
-import sp4 from '../assets/hero/Speaker4 Color.png'
-import sp5 from '../assets/hero/Speaker 6 Color.png'
-import sp6 from '../assets/hero/Rectangle22.png'
-import circle from '../assets/hero/Ellipse2.png'
-import arrow from '../assets/hero/Vector.png'
 
 const Speakers = () => {
 
@@ -26,8 +22,8 @@ const Speakers = () => {
         // };
 
     return (
-        <div className=' h-full bg-background'>
-          <section style={{}} className='mx-20 h-full'>
+        <div className='h-full bg-background mt-14'>
+          <section style={{}} className='container mx-auto h-full'>
             <section className='flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary'>
                     <h1 className=' sm:text-4xl lg:text-7xl font-extrabold'>SPEAKERS</h1>
                     <p className='text-xs font-medium'>VIEW ALL SPEAKER </p> 
@@ -36,11 +32,11 @@ const Speakers = () => {
 
                 <div className="grid grid-rows-2 grid-flow-col pt-12 mx-auto gap-2">
                     <div> <img className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp1} alt="speaker1" /></div>
-                    <div> <img className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp4} alt="speaker1" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp2} alt="speaker2" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp5} alt="speaker4" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp3} alt="speaker5" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp6} alt="speaker6" /></div>
+                    <div> <img className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp2} alt="speaker1" /></div>
+                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp3} alt="speaker2" /></div>
+                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp6} alt="speaker4" /></div>
+                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp4} alt="speaker5" /></div>
+                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp5} alt="speaker6" /></div>
                 </div>
                 {/*{speakers.map((speaker, index) => (
         <div

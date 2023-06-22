@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import Speakers from './components/Speakers'
 import Venue from './components/Venue'
+import Carousel from './components/Carousel'
 import About from './components/About'
 import Ticket from './componentsByAdeboye/Ticket'
 import Sponsors from './componentsByAdeboye/Sponsors'
@@ -20,6 +21,7 @@ function App() {
         <Venue />
         <Speakers />
         <Ticket />
+        <Carousel />
         <Prices />
         <Prizes />
         <Sponsors />

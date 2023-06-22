@@ -63,12 +63,29 @@ export default function Carousel({ children: slides, autoSlide = false, autoSlid
                 
             </div>
             <div className="absolute top-4 sm:left-8 md:left-8 lg:left-16">
+=======
+                <button onClick={prev} className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
+                    <ChevronLeft size={40} />
+                </button>
+                {/* <section className="relative left-6">
+                    <p className=" rotate-90 absolute -right-2 top-4">VENUE</p>
+                    <img src={line} className=" sm:h-40 lg:h-96"/>
+                </section> */}
+                <button onClick={next} className="p-1 w-10 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
+                    <ChevronRight size={40} />
+                </button>
+                  {/* <section>
+                    <img src={line} className="relative right-6 sm:h-40 lg:h-96" />
+                  <p className=" text-white rotate-90 absolute flex justify-end items-end left-8 bottom-40">VENUE</p>
+                </section>  */}
+            </div>
+            {/* <div className="absolute top-4 right-28 left-0">
                 <div className="flex items-center justify-center gap-2">
                         <h1 className=" font-primary sm:text-2xl md:text-2xl lg:text-4xl text-background sm:font-medium md:font-medium lg:font-semibold  pt-8 w-full">International Conference Center <br />
                         University of Ibadan (ICC)
                         </h1>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
