@@ -1,8 +1,8 @@
 import React from 'react'
 import './Prizes.css'
-import Laptop from '../assets/prizes/laptop.png'
-import Girlie from '../assets/prizes/girlie.png'
-import Watch from '../assets/prizes/watch.png'
+import Laptop from '../assets/prizes/Laptop.png'
+import Girlie from '../assets/prizes/Girlie.png'
+import Watch from '../assets/prizes/Watch.png'
 
 const Prizes = () => {
   return (
