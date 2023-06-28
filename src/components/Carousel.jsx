@@ -63,17 +63,16 @@ export default function Carousel({ children: slides, autoSlide = false, autoSlid
                 
             </div>
             <div className="absolute top-4 sm:left-8 md:left-8 lg:left-16">
-=======
-                <button onClick={prev} className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
+                {/* <button onClick={prev} className="p-1 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
                     <ChevronLeft size={40} />
-                </button>
+                </button> */}
                 {/* <section className="relative left-6">
                     <p className=" rotate-90 absolute -right-2 top-4">VENUE</p>
                     <img src={line} className=" sm:h-40 lg:h-96"/>
                 </section> */}
-                <button onClick={next} className="p-1 w-10 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
+                {/* <button onClick={next} className="p-1 w-10 rounded-full shadow bg-white/80 text-gray-800 hover:bg-white">
                     <ChevronRight size={40} />
-                </button>
+                </button> */}
                   {/* <section>
                     <img src={line} className="relative right-6 sm:h-40 lg:h-96" />
                   <p className=" text-white rotate-90 absolute flex justify-end items-end left-8 bottom-40">VENUE</p>
