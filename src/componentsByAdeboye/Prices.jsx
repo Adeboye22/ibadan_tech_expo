@@ -3,7 +3,7 @@ import './Prices.css'
 
 const Prices = () => {
   return (
-    <div className='prices'>
+    <div className='prices'> 
       <span className="prices-span">Ticket prices that suit every tech enthusiast</span>
       <div className="prices-col-1">
         <div className='prices-box-1'>

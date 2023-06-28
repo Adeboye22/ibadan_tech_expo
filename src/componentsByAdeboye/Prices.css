@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Jost:wght@200;300;400;500;700;800&display=swap');
 /* Styling for Prices */
 
-:root{
+:root{ 
     --firstColor: #224093;
     --secondColor: #FED062;
     --thirdColor: #FDB915;
 }
+
 .prices-span{
     text-align: center;
     margin-left: 7em;
@@ -219,9 +220,11 @@
 /* responsive for mobile phones */
 @media only screen and (max-width: 600px){
     .prices-span{
+        display: flex;
+        justify-content: center;
         text-align: center;
         margin-left: 0em;
-        padding: 0px 5px;
+        padding: 0 2.5rem;
         color: var(--firstColor);
         font-family: jost;
         font-size: 18px;
@@ -230,7 +233,7 @@
     .prices-col-1{
         display: flex;
         flex-direction: column;
-        margin: 3em 2em;
+        margin: 3em 1rem 3em 1.8rem;
         justify-content: none;
     }
     /* mark zuckerberg ticket*/

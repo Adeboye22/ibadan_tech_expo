@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&family=Jost:wght@200;300;400;500;700;800&display=swap');
 /* design codebase for mediaPartners */
-
+.partners{
+    padding: 0 .5rem;
+}
 .mediaPartner-h1{
     margin: 5em 2em 1em;
     font-family: jost;
