@@ -30,7 +30,7 @@ const Header = () => {
     }, [])
 
     return (
-        <header className={`${bg ? 'bg-background shadow-lg py-4 lg:py-6' : 'bg-none'} fixed left-0 w-full pt-6 pb-8 z-10 transition-all duration-200`}>
+        <header className={`${bg ? 'bg-background shadow-lg py-4 lg:py-6 font-primary' : 'bg-none'} fixed left-0 w-full pt-6 pb-8 z-10 transition-all duration-200`}>
             <div className="container mx-auto">
                 <div className="flex  justify-between items-center">
                     <a href="#">
