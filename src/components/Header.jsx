@@ -2,6 +2,7 @@ import { useState, useEffect } from "react"
 import Logo from '../assets/header/logo.svg'
 import NavMobile from "./NavMobile"
 import { CgMenuRight, CgClose } from 'react-icons/cg'
+import { Link } from "react-router-dom"
 
 const navigation = [
     {
@@ -15,10 +16,6 @@ const navigation = [
     {
         name: 'venue',
         href: 'venue'
-    },
-    {
-        name: 'partners',
-        href: 'partners'
     },
 ]
 
@@ -52,6 +49,9 @@ const Header = () => {
                                 )
                             })}
                         </ul>
+                        <a href="/get-tickets" className="text-primary px-3 ml-6 flex justify-center items-center bg-transparent border border-secondary rounded-md text-[15px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
+                            <button className="capitalize flex justify-center items-center">get tickets</button>
+                        </a>
                     </nav>
 
                     <div className={`${mobileNav ? "left-0" : "-left-full"} md:hidden fixed bottom-0 w-full max-w-xs h-screen transition-all`}>
