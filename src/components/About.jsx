@@ -1,6 +1,6 @@
 import Tit from '../assets/about/tit.svg'
 import Rec from '../assets/about/rec.svg'
-import Venue from '../components/Venue'
+
 const aboutData = [
     {
         titleImg: Tit,
@@ -12,7 +12,7 @@ const aboutData = [
 const About = () => {
     return (
         <section>
-            <div className="mx-auto container mt-[50px] md:mt-[160px] lg:mt-[480px] mb-10">
+            <div className="mx-auto font-primary container mt-[50px] md:mt-[160px] lg:mt-[480px] mb-10">
                 {aboutData.map((data, i)=> {
                     const { titleImg, desc, descImg } = data
                     return (
@@ -27,8 +27,6 @@ const About = () => {
                         </div>
                     )
                 })}
-
-                <Venue />
             </div> 
         </section>
     )

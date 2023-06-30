@@ -25,7 +25,7 @@ const navigation = [
 const Footer = () => {
     return (
         <footer className="bg-[#132351]">
-            <div className="container mx-auto py-4">
+            <div className="container mx-auto py-4 font-primary">
                 <div className="flex flex-col gap-y-5 lg:flex-row lg:justify-between items-center">
                     <div className='flex flex-col md:flex-row gap-x-6'>
                         <h1 className="md:text-[20px] text-white font-bold pb-2">Follow us on</h1>

@@ -1,6 +1,7 @@
 import Hero from './components/Hero'
 import Speakers from './components/Speakers'
 import Venue from './components/Venue'
+import Carousel from './components/Carousel'
 import About from './components/About'
 import Ticket from './componentsByAdeboye/Ticket'
 import Sponsors from './componentsByAdeboye/Sponsors'
@@ -17,8 +18,10 @@ function App() {
     <div className='max-w-[1440px] mx-auto bg-background overflow-hidden relative'>
         <Hero />
         <About />
+        <Venue />
         <Speakers />
         <Ticket />
+        <Carousel />
         <Prices />
         <Prizes />
         <Sponsors />
