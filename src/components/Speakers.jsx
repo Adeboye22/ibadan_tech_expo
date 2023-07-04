@@ -31,12 +31,53 @@ const Speakers = () => {
                 </section>
 
                 <div className="grid grid-rows-2 grid-flow-col pt-12 mx-auto gap-2">
-                    <div> <img className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp1} alt="speaker1" /></div>
-                    <div> <img className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp2} alt="speaker1" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp3} alt="speaker2" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp6} alt="speaker4" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp4} alt="speaker5" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp5} alt="speaker6" /></div>
+                    <div className=" sm:w-full md:w-full lg:w-full h-full"> 
+                      <img className='w-80 h-82 lg:w-full mx-auto bg-secondary rounded-lg' src={sp1} alt="speaker1" />
+                        <div className=" font-primary text-white relative w-full px-8 bottom-1/4 right-0 left-0 bg-green-600 h-1/4">
+                          <h1 className=" font-medium text-3xl pt-4"> Hon. Akin Alabi </h1>
+                          <p>Honorable member, Fed House of representatives</p>
+                        </div>
+                    </div>
+
+                    <div className=" sm:w-full md:w-full lg:w-full h-full"> 
+                      <img className='w-80 h-82 lg:w-full mx-auto bg-secondary rounded-lg' src={sp2} alt="speaker1" />
+                        <div className=" font-primary text-white relative w-full px-8 bottom-1/4 right-0 left-0 bg-green-600 h-1/4">
+                          <h1 className=" font-medium text-3xl pt-4"> Sam Aiyesoro </h1>
+                          <p> C.E.O, Wiseki Technologies </p>
+                        </div>
+                    </div>
+
+                    <div className=" sm:w-full md:w-full lg:w-full h-full">
+                      <img className='w-80 h-82 lg:w-full mx-auto bg-secondary rounded-lg' src={sp3} alt="speaker2" />
+                        <div className=" font-primary text-white relative w-full px-8 bottom-1/4 right-0 left-0 bg-green-600 h-1/4">
+                          <h1 className=" font-medium text-3xl pt-4"> Oluseun Onigbinde </h1>
+                          <p>Nigerian Entrepreneur</p>
+                        </div>
+                    </div>
+
+                    <div className=" sm:w-full md:w-full lg:w-full h-full">
+                      <img  className='w-80 h-82 lg:w-full mx-auto bg-secondary rounded-lg' src={sp6} alt="speaker4" />
+                        <div className=" font-primary text-white relative w-full px-8 bottom-1/4 right-0 left-0 bg-green-600 h-1/4">
+                          <h1 className=" font-medium text-3xl pt-4"> Rilwan Akeyewale </h1>
+                          <p>Entrepreneur</p>
+                        </div>
+                    </div>
+
+                    <div className=" sm:w-full md:w-full lg:w-full h-full">
+                      <img  className='w-80 h-82 lg:w-full mx-auto bg-secondary rounded-lg' src={sp4} alt="speaker5" />
+                      <div className=" font-primary text-white relative w-full px-8 bottom-1/4 right-0 left-0 bg-green-600 h-1/4">
+                          <h1 className=" font-medium text-3xl pt-4"> Asiwaju Larry </h1>
+                          <p> Social Media Influencer</p>
+                        </div>
+                    </div>
+
+                    <div className=" sm:w-full md:w-full lg:w-full h-full">
+                      <img  className='w-80 h-82 lg:w-full mx-auto bg-secondary rounded-lg' src={sp5} alt="speaker6" />
+                      <div className=" font-primary text-white relative w-full px-8 bottom-1/4 right-0 left-0 bg-green-600 h-1/4">
+                          <h1 className=" font-medium text-3xl pt-4"> Asiwaju Larry </h1>
+                          <p> Social Media Influencer</p>
+                        </div>
+                    </div>
                 </div>
                 {/*{speakers.map((speaker, index) => (
         <div

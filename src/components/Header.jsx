@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import Logo from '../assets/header/logo.svg'
 import NavMobile from "./NavMobile"
 import { CgMenuRight, CgClose } from 'react-icons/cg'
-import { Link } from "react-router-dom"
+// import { Link } from "react-router-dom"
 
 const navigation = [
     {
