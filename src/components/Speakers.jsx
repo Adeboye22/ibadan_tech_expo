@@ -1,10 +1,12 @@
 import "./css/speakers.css";
-import sp1 from '../assets/hero/Speaker1.png';
-import sp2 from '../assets/hero/speaker2.png';
-import sp3 from '../assets/hero/Speaker3.png';
-import sp4 from '../assets/hero/Speakers4.png';
-import sp5 from '../assets/hero/speaker5.png';
-import sp6 from '../assets/hero/Speakers4.png';
+import sp1 from '../assets/hero/PSpeaker1.png';
+import sp2 from '../assets/hero/PSpeaker2.png';
+import sp3 from '../assets/hero/PSpeaker3.png';
+import sp4 from '../assets/hero/PSpeaker4.png';
+import sp5 from '../assets/hero/PSpeaker5.png';
+import sp6 from '../assets/hero/PSpeaker6.png';
+import sp7 from '../assets/hero/PSpeaker7.png';
+import sp8 from '../assets/hero/PSpeaker8.png';
 
 const speakerData = [
   {
@@ -42,6 +44,18 @@ const speakerData = [
     name: 'Asiwaju Larry',
     role: 'Social Media Influencer',
     image: sp5
+  },
+  {
+    id: 7,
+    name: 'Speaker 7',
+    role: 'Role of Speaker 7',
+    image: sp7
+  },
+  {
+    id: 8,
+    name: 'Speaker 8',
+    role: 'Role of Speaker 8',
+    image: sp8
   }
 ];
 
@@ -54,12 +68,12 @@ const Speakers = () => {
           <p className='text-xs font-medium'>VIEW ALL SPEAKERS</p>
         </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-2 pt-12 mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pt-12 mx-auto">
           {speakerData.map((speaker) => (
             <div className="h-full" key={speaker.id}>
-              <img className='w-80 h-82 lg:w-full mx-auto bg-secondary rounded-lg' src={speaker.image} alt={`speaker${speaker.id}`} />
-              <div className="font-primary text-white relative w-full px-8 bottom-1/4 right-0 left-0 bg-green-600 h-1/4">
-                <h1 className="font-medium text-3xl pt-4">{speaker.name}</h1>
+              <img className='w-80 h-82 lg:w-full mx-auto rounded-lg' src={speaker.image} alt={`speaker${speaker.id}`} />
+              <div className="font-primary text-primary text-center px-8 py-4">
+                <h1 className="font-medium text-3xl">{speaker.name}</h1>
                 <p>{speaker.role}</p>
               </div>
             </div>
