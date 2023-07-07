@@ -30,7 +30,7 @@ const Header = () => {
     }, [])
 
     return (
-        <header className={`${bg ? 'bg-background shadow-lg py-4 lg:py-6 font-primary' : 'bg-none'} fixed left-0 w-full pt-6 pb-8 z-10 transition-all duration-200`}>
+        <header className={`${bg ? 'bg-background shadow-lg py-4 lg:py-6 font-primarynpm' : 'bg-none'} fixed left-0 w-full pt-6 pb-8 z-10 transition-all duration-200`}>
             <div className="container mx-auto">
                 <div className="flex  justify-between items-center">
                     <a href="#">
@@ -49,7 +49,7 @@ const Header = () => {
                                 )
                             })}
                         </ul>
-                        <a href="/get-tickets" className="text-primary px-3 ml-6 flex justify-center items-center bg-transparent border border-secondary rounded-md text-[15px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
+                        <a href="/get-tickets" className="text-primary px-[1.25rem] py-[0.625rem] ml-6 flex justify-center items-center bg-secondary border border-secondary rounded-md text-[15px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
                             <button className="capitalize flex justify-center items-center">get tickets</button>
                         </a>
                     </nav>

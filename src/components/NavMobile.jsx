@@ -26,7 +26,7 @@ const NavMobile = () => {
                         </li>
                     )
                 })}
-                <a href="/get-tickets" className="text-primary py-3 px-7 flex justify-center items-center bg-transparent border border-secondary rounded-md text-[20px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
+                <a href="/get-tickets" className="text-primary px-[1.25rem] py-[0.625rem] flex justify-center items-center bg-secondary border border-secondary rounded-md text-[20px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
                     <button className="capitalize flex justify-center items-center">get tickets</button>
                 </a>
             </ul>
