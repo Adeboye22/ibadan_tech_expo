@@ -22,7 +22,7 @@ const Venue = () => {
                 style={{ height: "100%", width: "100%" }}
                 key={i}
                 src={s}
-                className="min-w-[100%] min-h-[250px] object-cover "
+                className="min-w-[100%] min-h-[250px] object-cover rounded-lg"
               />
             ))}
           </Carousel>
