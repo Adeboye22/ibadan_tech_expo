@@ -17,44 +17,44 @@ const speakerData = [
   },
   {
     id: 2,
-    name: 'Sam Aiyesoro',
-    role: 'C.E.O, Wiseki Technologies',
+    name: 'Seun Onigbinde',
+    role: 'Director BudgIT',
     image: sp2
   },
   {
     id: 3,
-    name: 'Oluseun Onigbinde',
+    name: 'MD/CEO Wiseki Technologies',
     role: 'Nigerian Entrepreneur',
     image: sp3
   },
   {
     id: 4,
-    name: 'Rilwan Akeyewale',
-    role: 'Entrepreneur',
+    name: 'Victor Ehindoro',
+    role: 'Director POTTV Media',
     image: sp6
   },
   {
     id: 5,
-    name: 'Asiwaju Larry',
-    role: 'Social Media Influencer',
+    name: 'Sanmi Adebunmi',
+    role: 'CEO PatchPay',
     image: sp4
   },
   {
     id: 6,
-    name: 'Asiwaju Larry',
-    role: 'Social Media Influencer',
+    name: 'Rilwan Akeyewale',
+    role: 'Founder TechPlan Africa',
     image: sp5
   },
   {
     id: 7,
-    name: 'Speaker 7',
-    role: 'Role of Speaker 7',
+    name: 'Ore Afolayan',
+    role: 'Founder Renifi',
     image: sp7
   },
   {
     id: 8,
-    name: 'Speaker 8',
-    role: 'Role of Speaker 8',
+    name: 'Asiwaju Lerry',
+    role: 'Media Personality',
     image: sp8
   }
 ];

@@ -1,11 +1,11 @@
 import Carousel from "./Carousel";
 import vn1 from "../assets/new-venue/Venue-1.png";
-import vn2 from "../assets/new-venue/Venue-2.png";
-import vn3 from "../assets/new-venue/Venue-3.png";
-import vn4 from "../assets/new-venue/Venue-4.png";
+// import vn2 from "../assets/new-venue/Venue-2.png";
+// import vn3 from "../assets/new-venue/Venue-3.png";
+// import vn4 from "../assets/new-venue/Venue-4.png";
 import sp1 from "../assets/hero/speaker2.png";
 
-const slides = [vn1, vn2, vn3, vn4];
+const slides = [vn1];
 
 const Venue = () => {
   return (

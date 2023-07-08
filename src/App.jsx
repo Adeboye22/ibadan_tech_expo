@@ -15,7 +15,7 @@ import MediaPartners from './componentsByAdeboye/MediaPartners'
 function App() {
 
   return (
-    <div className='max-w-[1440px] mx-auto bg-background overflow-hidden relative'>
+    <div className='max-w-[1500px] bg-background overflow-hidden relative'>
         <Hero />
         <About />
         <Venue />

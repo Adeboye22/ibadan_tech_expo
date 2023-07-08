@@ -12,7 +12,7 @@ const aboutData = [
 const About = () => {
     return (
         <section>
-            <div className="mx-auto font-primary container mt-[90px] md:mt-[160px] lg:mt-[480px] mb-10">
+            <div className="mx-auto font-primary container mt-[90px] md:mt-[160px] lg:mt-[70px] mb-10">
                 {aboutData.map((data, i)=> {
                     const { titleImg, desc, descImg } = data
                     return (
