@@ -19,7 +19,7 @@ const About = () => {
                         <div key={i} className="flex flex-col md:flex-row items-center">
                             <div className='w-full'> 
                                 <img className='border-b-2 border-secondary relative w-full' src={titleImg} alt="" />
-                                <p className='text-[10px] lg:text-[18px] text-primary font-medium lg:w-[600px] leading-5 md:my-6'>{desc}</p>
+                                <p className='text-[15px] lg:text-[18px] text-primary font-medium lg:w-[600px] leading-5 md:my-6'>{desc}</p>
                             </div>
                             <div>
                                 <img className='w-[1728px] md:h-[734px] md:top-[1129px] mt-5' src={descImg} alt="" />
