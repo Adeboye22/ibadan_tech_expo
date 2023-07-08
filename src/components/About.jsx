@@ -18,7 +18,7 @@ const About = () => {
                     return (
                         <div key={i} className="flex flex-col md:flex-row items-center">
                             <div className='w-full'> 
-                                <img className='border-b-2 border-secondary relative w-full' src={titleImg} alt="" />
+                                <img className='border-b-2 border-secondary relative w-full mb-5 md:mb-0' src={titleImg} alt="" />
                                 <p className='text-[15px] lg:text-[18px] text-primary font-medium lg:w-[600px] leading-5 md:my-6'>{desc}</p>
                             </div>
                             <div>
