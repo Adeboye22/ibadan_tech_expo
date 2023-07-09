@@ -29,7 +29,7 @@ const speakerData = [
   },
   {
     id: 4,
-    name: 'Victor Ehindoro',
+    name: 'Victor Ehindero',
     role: 'Director POTTV Media',
     image: sp6
   },

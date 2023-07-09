@@ -10,7 +10,7 @@ const heroData = [
   {
     mainImg: Bg,
     ibdImg: Bgs,
-    edition: 'MAIN EDITION',
+    edition: 'MAIDEN EDITION',
     midImg: Star,
     date: 'September 9, 2023'
   }
