@@ -61,7 +61,7 @@ const speakerData = [
 
 const Speakers = () => {
   return (
-    <div className='h-full bg-background mt-14'>
+    <div className='h-full bg-background mt-14' id="speakers">
       <section className='container mx-auto h-full'>
         <section className='flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary'>
           <h1 className='sm:text-4xl lg:text-7xl font-extrabold'>SPEAKERS</h1>

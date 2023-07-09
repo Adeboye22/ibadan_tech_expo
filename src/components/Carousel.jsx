@@ -29,7 +29,7 @@ export default function Carousel({
       >
         {slides}
       </div>
-      <div className="text-xl tracking-tighter absolute top-[23%] left-1.5 inset-0 md:leading-8 md:text-4xl md:top-8 md:left-20 z-10  text-white">
+      <div className="text-xl tracking-tighter absolute top-[23%] left-1.5 inset-0 md:leading-8 md:text-4xl md:top-8 md:left-20  text-white">
         <h2 className=" font-bold md:py-4 ">International Conference Center</h2>
         <h2 className=" font-bold">University of Ibadan (ICC)</h2>
       </div>

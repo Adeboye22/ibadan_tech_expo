@@ -10,16 +10,18 @@ import Partners from './componentsByAdeboye/Partners'
 import Footer from './components/Footer'
 import Prizes from './componentsByAdeboye/Prizes'
 import MediaPartners from './componentsByAdeboye/MediaPartners'
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 
 function App() {
 
   return (
-    <div className='max-w-[1500px] bg-background overflow-hidden relative'>
+    <BrowserRouter>
+      <div className='max-w-[1500px] bg-background overflow-hidden relative'>
         <Hero />
         <About />
-        <Venue />
-        <Speakers />
+        <Venue path='venue' />
+        <Speakers path='speakers' />
         <Ticket />
         <Carousel />
         <Prices />
@@ -28,7 +30,8 @@ function App() {
         <Partners />
         <MediaPartners />
         <Footer />
-    </div>
+      </div>
+    </BrowserRouter>
   )
 }
 

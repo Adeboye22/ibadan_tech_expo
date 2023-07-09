@@ -2,7 +2,7 @@ import './Prices.css'
 
 const Prices = () => {
   return (
-    <div className='prices mx-auto'> 
+    <div className='prices mx-auto' id='prices'> 
       <span className="prices-span">Ticket prices that suit every tech enthusiast</span>
       <div className="prices-col-1">
         <div className='prices-box-1'>

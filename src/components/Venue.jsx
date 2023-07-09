@@ -9,7 +9,7 @@ const slides = [vn1];
 
 const Venue = () => {
   return (
-    <div className="bg-background">
+    <div className="bg-background" id="venue">
       <section className="container mx-auto">
         <section className="flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary">
           <h1 className=" sm:text-6xl lg:text-7xl font-extrabold">VENUE</h1>
