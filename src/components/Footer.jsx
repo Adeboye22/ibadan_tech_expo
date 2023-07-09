@@ -31,7 +31,9 @@ const Footer = () => {
                         <h1 className="md:text-[20px] text-white font-bold pb-2">Follow us on</h1>
                         <div className='flex items-center gap-x-5 cursor-pointer'>
                             <img className='w-5 md:w-6' src={Twitter} alt="" />
-                            <img className='w-5 md:w-6' src={Facebook} alt="" />
+                            <a href="https://www.facebook.com/ibadantechexpo?mibextid=ZbWKwL">
+                                <img className='w-5 md:w-6' src={Facebook} alt="" />
+                            </a>
                             <img className='w-5 md:w-6' src={LinkedIn} alt="" />
                         </div>
                     </div>

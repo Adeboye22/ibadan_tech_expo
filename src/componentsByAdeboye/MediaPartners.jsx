@@ -5,7 +5,7 @@ import CrestLogo from '../assets/mediaPartners/CrestLogo.svg'
 const MediaPartners = () => {
   return (
     <div className='partners'>
-      <h1 className='mediaPartner-h1'>Media Partners</h1>
+      <h1 className='mediaPartner-h1'>Partners</h1>
       <Marquee>
       <div className="mediaPartners">
         <img src={CrestLogo} alt="" />
