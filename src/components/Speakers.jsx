@@ -23,8 +23,8 @@ const speakerData = [
   },
   {
     id: 3,
-    name: 'MD/CEO Wiseki Technologies',
-    role: 'Nigerian Entrepreneur',
+    name: 'Sam Aiyesoro',
+    role: 'MD/CEO Wiseki Technologies',
     image: sp3
   },
   {
