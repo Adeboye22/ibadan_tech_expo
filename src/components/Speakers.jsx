@@ -7,6 +7,7 @@ import sp5 from '../assets/hero/PSpeaker5.png';
 import sp6 from '../assets/hero/PSpeaker6.png';
 import sp7 from '../assets/hero/PSpeaker7.png';
 import sp8 from '../assets/hero/PSpeaker8.png';
+import sp9 from '../assets/hero/PSpeaker9.png';
 
 const speakerData = [
   {
@@ -56,7 +57,13 @@ const speakerData = [
     name: 'Asiwaju Lerry',
     role: 'Media Personality',
     image: sp8
-  }
+  },
+  {
+    id: 9,
+    name: 'Olugbenga Ogunbowale',
+    role: 'CEO GrantMaster',
+    image: sp9
+  },
 ];
 
 const Speakers = () => {
