@@ -12,7 +12,7 @@ const speakerData = [
   {
     id: 1,
     name: 'Hon. Akin Alabi',
-    role: 'Honorable member, Fed House of Representatives',
+    role: 'Honorable Member, Federal House of Representatives',
     image: sp1
   },
   {
