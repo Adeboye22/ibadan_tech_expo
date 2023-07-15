@@ -25,8 +25,8 @@ function App() {
         <Ticket />
         <Carousel />
         <Prices />
-        <Prizes />
         <Sponsors />
+        <Prizes />
         <Partners />
         <MediaPartners />
         <Footer />

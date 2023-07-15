@@ -1,7 +1,10 @@
+import Marquee from 'react-fast-marquee'
+
+
 
 const Sponsors = () => {
     return (
-        <div>
+        <div> 
             Sponsors
         </div>
     )

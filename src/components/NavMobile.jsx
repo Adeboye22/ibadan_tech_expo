@@ -30,7 +30,7 @@ const NavMobile = () => {
                 {/* <li>
                     <Link to='venue' spy={true} smooth={true} offset={100} duration={500}>Venue</Link>
                 </li> */}
-                <Link to="prices" className="text-primary px-[1.25rem] py-[0.625rem] flex justify-center items-center bg-secondary border border-secondary rounded-md text-[20px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
+                <Link to="prices" spy={true} smooth={true} duration={500} className="text-primary px-[1.25rem] py-[0.625rem] flex justify-center items-center bg-secondary border border-secondary rounded-md text-[20px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
                     <button className="capitalize flex justify-center items-center">get tickets</button>
                 </Link>
             </ul>
