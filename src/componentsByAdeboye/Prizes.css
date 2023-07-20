@@ -11,7 +11,7 @@
     font-family: jost;
     color: white;
     margin-top: 8em;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 .tech-prizes{
     font-weight: 800;
@@ -75,6 +75,9 @@
         font-size: 20px;
         text-align:left;
         line-height: 1.5em;
+    }
+    .tech-prizes-text br{
+        display: none;
     }
     .prizes-col-2{
         display: flex;

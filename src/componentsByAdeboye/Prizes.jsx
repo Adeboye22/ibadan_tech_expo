@@ -9,7 +9,7 @@ const Prizes = () => {
     <div className='prizes'>
         <div className="prizes-col-1">
             <h1 className='tech-prizes'>Tech Prizes Galore</h1>
-            <p className="tech-prizes-text">By obtaining a ticket for the Ibadan Tech Expo event, you enter the chance to win incredible tech prizes, including laptops, phones, AirPods, smartwatches, 5G internet mifis, headsets, VR sets, wireless mice, and televisions.</p>
+            <p className="tech-prizes-text">By obtaining a ticket for the Ibadan Tech Expo event,<br /> you enter the chance to win incredible tech prizes,<br /> including laptops, phones, AirPods,<br /> smartwatches, 5G internet mifis, headsets, VR sets, wireless mice, and televisions.</p>
         </div>
         <div className="prizes-col-2">
             <img src={Laptop} alt="" className="img-laptop" />
