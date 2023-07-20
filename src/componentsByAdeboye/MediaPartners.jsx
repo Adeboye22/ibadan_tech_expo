@@ -8,12 +8,12 @@ const MediaPartners = () => {
     <div className='partners'>
       <h1 className='mediaPartner-h1'>Partners</h1>
       <Marquee>
-      <div className="mediaPartners">
-        <img src={CrestLogo} alt="" />
-        <img src={Honour} alt="" />
-        <img src={CrestLogo} alt="" />
-        <img src={Honour} alt="" />
-      </div>
+        <div className="mediaPartners">
+          <img src={CrestLogo} alt="" />
+          <img src={Honour} alt="" />
+          <img src={CrestLogo} alt="" />
+          <img src={Honour} alt="" />M
+        </div>
       </Marquee> 
     </div>
   )
