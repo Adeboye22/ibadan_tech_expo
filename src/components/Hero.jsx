@@ -4,14 +4,13 @@ import Line from '../assets/hero/line.svg'
 import Bgs from '../assets/hero/ibd.svg'
 import CountDown from '../components/CountDown'
 import Header from './Header'
-import Features from './Features'
 
 
 const heroData = [
   {
     mainImg: Bg,
     ibdImg: Bgs,
-    edition: 'FIRST EDITION',
+    edition: 'MAIDEN EDITION',
     midImg: Star,
     date: 'September 9, 2023'
   }
@@ -19,19 +18,19 @@ const heroData = [
 
 const Hero = () => {
     return (
-        <section>
+        <section> 
           <Header />
             {heroData.map((data, i) => {
-              const { mainImg, ibdImg, edition, midImg, date } = data
+              const { ibdImg, edition, midImg, date } = data
               return ( 
                 <div key={i} className='h-[850px] bg-right bg-cover w-full pt-[100px] md:pt-[120px] pb-[150px] font-primary'>
                   <div className='container mx-auto'>
-                    <div className='flex items-center lg:ml-[200px] my-3'>
+                    {/* <div className='flex items-center lg:ml-[200px] my-3'>
                       <img className='h-[70px] md:h-[130px] lg:h-[150px] lg:w-[645px] mb-3' src={mainImg} alt="" />
-                    </div>
-                    <div>
+                    </div> */}
+                    {/* <div>
                       <Features />
-                    </div>
+                    </div> */}
                     <div>
                       <img className='w-full' src={ibdImg} alt="" />
                     </div>
@@ -50,9 +49,11 @@ const Hero = () => {
                       </div>
                     </div>
 
-                    <div className='flex flex-col gap-y-7 md:flex-row items-center gap-x-7 my-10'>
+                    <div className='flex flex-col gap-y-7 md:flex-row items-center gap-x-7 mt-10 mb-20'>
                       <button className='text-[24px] text-primary font-medium w-full bg-secondary border-[1px] border-secondary py-1'>REGISTER</button>
-                      <button className='text-[24px] text-primary font-medium w-full bg-transparent border-[1px] border-primary py-1'>BECOME A SPONSOR</button>
+                      <a href="https://wa.link/4xhit1" className='text-[24px] text-primary font-medium w-full bg-transparent border-[1px] border-primary py-1 flex justify-center items-center'>
+                        <button>BECOME A SPONSOR</button>
+                      </a>
                     </div>
                     <CountDown />
                   </div>

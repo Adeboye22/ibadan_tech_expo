@@ -24,14 +24,18 @@ const navigation = [
 
 const Footer = () => {
     return (
-        <footer className="bg-[#132351]">
+        <footer className="bg-[#132351]" id='footer'>
             <div className="container mx-auto py-4 font-primary">
                 <div className="flex flex-col gap-y-5 lg:flex-row lg:justify-between items-center">
                     <div className='flex flex-col md:flex-row gap-x-6'>
                         <h1 className="md:text-[20px] text-white font-bold pb-2">Follow us on</h1>
                         <div className='flex items-center gap-x-5 cursor-pointer'>
-                            <img className='w-5 md:w-6' src={Twitter} alt="" />
-                            <img className='w-5 md:w-6' src={Facebook} alt="" />
+                            <a href="https://twitter.com/IbadanTechExpo">
+                                <img className='w-5 md:w-6' src={Twitter} alt="" />
+                            </a>
+                            <a href="https://www.facebook.com/ibadantechexpo?mibextid=ZbWKwL">
+                                <img className='w-5 md:w-6' src={Facebook} alt="" />
+                            </a>
                             <img className='w-5 md:w-6' src={LinkedIn} alt="" />
                         </div>
                     </div>

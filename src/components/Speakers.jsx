@@ -1,60 +1,94 @@
-import "./css/speakers.css"
-import sp1 from '../assets/hero/oloye.svg'
-import sp2 from '../assets/hero/speaker2.svg'
-import sp3 from '../assets/hero/speaker3.svg'
-import sp4 from '../assets/hero/lerry.svg'
-import sp5 from '../assets/hero/speaker4.svg'
-import sp6 from '../assets/hero/speaker4.svg'
+import "./css/speakers.css";
+import sp1 from '../assets/hero/PSpeaker1.png';
+import sp2 from '../assets/hero/PSpeaker2.png';
+import sp3 from '../assets/hero/PSpeaker3.png';
+import sp4 from '../assets/hero/PSpeaker4.png';
+import sp5 from '../assets/hero/PSpeaker5.png';
+import sp6 from '../assets/hero/PSpeaker6.png';
+import sp7 from '../assets/hero/PSpeaker7.png';
+import sp8 from '../assets/hero/PSpeaker8.png';
+import sp9 from '../assets/hero/PSpeaker9.png';
 
+const speakerData = [
+  {
+    id: 1,
+    name: 'Hon. Akin Alabi',
+    role: 'Honorable Member, Federal House of Representatives',
+    image: sp1
+  },
+  {
+    id: 2,
+    name: 'Seun Onigbinde',
+    role: 'Director BudgIT',
+    image: sp2
+  },
+  {
+    id: 3,
+    name: 'Sam Aiyesoro',
+    role: 'MD/CEO Wiseki Technologies',
+    image: sp3
+  },
+  {
+    id: 4,
+    name: 'Victor Ehindero',
+    role: 'Director POTTV Media',
+    image: sp6
+  },
+  {
+    id: 5,
+    name: 'Sanmi Adebunmi',
+    role: 'CEO PatchPay',
+    image: sp4
+  },
+  {
+    id: 6,
+    name: 'Rilwan Akeyewale',
+    role: 'Founder TechPlan Africa',
+    image: sp5
+  },
+  {
+    id: 7,
+    name: 'Ore Afolayan',
+    role: 'Founder Renifi',
+    image: sp7
+  },
+  {
+    id: 8,
+    name: 'Asiwaju Lerry',
+    role: 'Media Personality',
+    image: sp8
+  },
+  {
+    id: 9,
+    name: 'Olugbenga Ogunbowale',
+    role: 'CEO GrantMaster',
+    image: sp9
+  },
+];
 
 const Speakers = () => {
+  return (
+    <div className='h-full bg-background mt-14' id="speakers">
+      <section className='container mx-auto h-full'>
+        <section className='flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary'>
+          <h1 className='sm:text-4xl lg:text-7xl font-extrabold'>SPEAKERS</h1>
+          <p className='text-xs font-medium'>VIEW ALL SPEAKERS</p>
+        </section>
 
-        // const speakers = [
-        //   { id: 1, name: 'Speaker 1', image: '' },
-        //   { id: 2, name: 'Speaker 2', image: '' },
-        //   { id: 3, name: 'Speaker 3', image: '' },
-        // ];
-      
-        // const [activeImage, setActiveImage] = useState(null);
-      // const [activeImage, setActiveImage] = useState(null);W
-        // const handleImageHover = (index) => {
-        //   setActiveImage(index);
-        // };
-
-    return (
-        <div className='h-full bg-background mt-14'>
-          <section style={{}} className='container mx-auto h-full'>
-            <section className='flex justify-between pt-3 font-primary text-primary items-center border-b-2 border-secondary'>
-                    <h1 className=' sm:text-4xl lg:text-7xl font-extrabold'>SPEAKERS</h1>
-                    <p className='text-xs font-medium'>VIEW ALL SPEAKER </p> 
-                    {/* <span> <img src={arrow} alt="" /></span> */}
-                </section>
-
-                <div className="grid grid-rows-2 grid-flow-col pt-12 mx-auto gap-2">
-                    <div> <img className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp1} alt="speaker1" /></div>
-                    <div> <img className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp2} alt="speaker1" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp3} alt="speaker2" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp6} alt="speaker4" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp4} alt="speaker5" /></div>
-                    <div><img  className='w-80 h-82 lg:w-96 mx-auto bg-secondary rounded-lg' src={sp5} alt="speaker6" /></div>
-                </div>
-                {/*{speakers.map((speaker, index) => (
-        <div
-          key={speaker.id}
-          className={`relative ${activeImage === index ? 'scale-150' : 'scale-100'} transform transition-transform duration-300 ease-in-out`}
-          onMouseEnter={() => handleImageHover(index)}
-          onMouseLeave={() => handleImageHover(null)}
-        >
-          <img src={speaker.image} alt={speaker.name} className="w-full" />
-          {activeImage === index && (
-            <div className="absolute bottom-0 left-0 w-full bg-black text-white p-2 text-center">
-              {speaker.name}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pt-12 mx-auto">
+          {speakerData.map((speaker) => (
+            <div className="h-full" key={speaker.id}>
+              <img className='w-80 h-82 lg:w-full mx-auto rounded-lg' src={speaker.image} alt={`speaker${speaker.id}`} />
+              <div className="font-primary text-primary text-center px-8 py-4">
+                <h1 className="font-medium text-3xl">{speaker.name}</h1>
+                <p>{speaker.role}</p>
+              </div>
             </div>
-          )}*/}
-          </section>
+          ))}
         </div>
-
-    )
+      </section>
+    </div>
+  );
 }
 
-export default Speakers
+export default Speakers;

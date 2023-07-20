@@ -1,3 +1,4 @@
+import { Link } from "react-scroll"
 
 
 const navigation = [
@@ -7,7 +8,7 @@ const navigation = [
     },
     {
         name: 'contact',
-        href: 'contact'
+        href: 'footer'
     },
     {
         name: 'venue',
@@ -21,14 +22,17 @@ const NavMobile = () => {
             <ul className="text-center h-full flex flex-col items-center justify-center gap-y-6">
                 {navigation.map((data, i)=> {
                     return (
-                        <li key={i}>
-                            <a className="text-[24px] text-primary font-medium capitalize" href={data.href}>{data.name}</a>    
+                        <li key={i} className="cursor-pointer">
+                            <Link className="text-[24px] text-primary font-medium capitalize" to={data.href} spy={true} smooth={true} duration={500}>{data.name}</Link>    
                         </li>
                     )
                 })}
-                <a href="/get-tickets" className="text-primary py-3 px-7 flex justify-center items-center bg-transparent border border-secondary rounded-md text-[20px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
+                {/* <li>
+                    <Link to='venue' spy={true} smooth={true} offset={100} duration={500}>Venue</Link>
+                </li> */}
+                <Link to="prices" spy={true} smooth={true} duration={500} className="text-primary px-[1.25rem] py-[0.625rem] flex justify-center items-center bg-secondary border border-secondary rounded-md text-[20px] font-medium hover:bg-secondary shadow-md hover:text-white transition-all ease-in-out duration-300">
                     <button className="capitalize flex justify-center items-center">get tickets</button>
-                </a>
+                </Link>
             </ul>
         </div>
     )
