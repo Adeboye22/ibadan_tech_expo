@@ -8,6 +8,7 @@ import sp6 from '../assets/hero/PSpeaker6.png';
 import sp7 from '../assets/hero/PSpeaker7.png';
 import sp8 from '../assets/hero/PSpeaker8.png';
 import sp9 from '../assets/hero/PSpeaker9.png';
+import sp10 from '../assets/hero/PSpeaker10.png';
 
 const speakerData = [
   {
@@ -63,6 +64,12 @@ const speakerData = [
     name: 'Olugbenga Ogunbowale',
     role: 'CEO GrantMaster',
     image: sp9
+  },
+  {
+    id: 10,
+    name: 'Olumide Akinsola',
+    role: 'VP of Growth, QuickBus',
+    image: sp10
   },
 ];
 

@@ -9,10 +9,10 @@ const Sponsors = () => {
       <div className='sponsors'>
         <h1 className='mediaPartner-h1'>Sponsors</h1>
         <Marquee>
-        <div className="mediaPartners">
-          <img src={MTNLogo} alt="" />
-          <img src={MTNLogo} alt="" />
-        </div>
+          <div className="mediaPartners">
+            <img src={MTNLogo} alt="" />
+            <img src={MTNLogo} alt="" />
+          </div>
         </Marquee> 
       </div>
     )
