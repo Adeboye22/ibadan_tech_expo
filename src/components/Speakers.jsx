@@ -9,6 +9,9 @@ import sp7 from '../assets/hero/PSpeaker7.png';
 import sp8 from '../assets/hero/PSpeaker8.png';
 import sp9 from '../assets/hero/PSpeaker9.png';
 import sp10 from '../assets/hero/PSpeaker10.png';
+import sp11 from '../assets/hero/PSpeaker11.png';
+import sp12 from '../assets/hero/PSpeaker12.png';
+import sp13 from '../assets/hero/PSpeaker13.png';
 
 const speakerData = [
   {
@@ -70,6 +73,24 @@ const speakerData = [
     name: 'Olumide Akinsola',
     role: 'VP of Growth, QuickBus',
     image: sp10
+  },
+  {
+    id: 11,
+    name: 'Adeitan Abimbola Moses',
+    role: 'Co-founder, Logikeep Africa',
+    image: sp11
+  },
+  {
+    id: 12,
+    name: 'Rasheed Ridwan',
+    role: 'Cofounder - Shiip',
+    image: sp12
+  },
+  {
+    id: 13,
+    name: 'Olumide Omotoso',
+    role: 'CEO Watu',
+    image: sp13
   },
 ];
 
