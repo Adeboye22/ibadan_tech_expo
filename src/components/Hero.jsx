@@ -4,6 +4,7 @@ import Line from '../assets/hero/line.svg'
 import Bgs from '../assets/hero/ibd.svg'
 import CountDown from '../components/CountDown'
 import Header from './Header'
+import { Link } from 'react-scroll'
 
 
 const heroData = [
@@ -11,7 +12,7 @@ const heroData = [
     mainImg: Bg,
     ibdImg: Bgs,
     edition: 'MAIDEN EDITION',
-    midImg: Star,
+    midImg: Star, 
     date: 'September 9, 2023'
   }
 ]
@@ -50,7 +51,9 @@ const Hero = () => {
                     </div>
 
                     <div className='flex flex-col gap-y-7 md:flex-row items-center gap-x-7 mt-10 mb-20'>
-                      <button className='text-[24px] text-primary font-medium w-full bg-secondary border-[1px] border-secondary py-1'>REGISTER</button>
+                      <Link to="prices" spy={true} smooth={true} duration={500} className='w-full bg-secondary border-[1px] border-secondary py-1 text-center'>
+                        <button className='text-[24px] text-primary font-medium'>BUY TICKETS</button>
+                      </Link>
                       <a href="https://wa.link/4xhit1" className='text-[24px] text-primary font-medium w-full bg-transparent border-[1px] border-primary py-1 flex justify-center items-center'>
                         <button>BECOME A SPONSOR</button>
                       </a>

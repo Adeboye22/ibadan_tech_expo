@@ -103,13 +103,13 @@ const Speakers = () => {
           <p className='text-xs font-medium'>VIEW ALL SPEAKERS</p>
         </section>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pt-12 mx-auto">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 pt-12 mx-auto">
           {speakerData.map((speaker) => (
             <div className="h-full" key={speaker.id}>
               <img className='w-80 h-82 lg:w-full mx-auto rounded-lg' src={speaker.image} alt={`speaker${speaker.id}`} />
               <div className="font-primary text-primary text-center px-8 py-4">
-                <h1 className="font-medium text-3xl">{speaker.name}</h1>
-                <p>{speaker.role}</p>
+                <h1 className="font-medium md:text-3xl">{speaker.name}</h1>
+                <p className="text-[10px] md:text-[18px]">{speaker.role}</p>
               </div>
             </div>
           ))}
