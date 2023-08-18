@@ -12,6 +12,7 @@ import sp10 from '../assets/hero/PSpeaker10.png';
 import sp11 from '../assets/hero/PSpeaker11.png';
 import sp12 from '../assets/hero/PSpeaker12.png';
 import sp13 from '../assets/hero/PSpeaker13.png';
+import sp14 from '../assets/hero/PSpeaker14.png';
 
 const speakerData = [
   {
@@ -91,6 +92,12 @@ const speakerData = [
     name: 'Olumide Omotoso',
     role: 'CEO Watu',
     image: sp13
+  },
+  {
+    id: 14,
+    name: 'Sam Adeleke',
+    role: 'Group Head, The Bunker',
+    image: sp14
   },
 ];
 

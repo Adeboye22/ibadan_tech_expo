@@ -11,6 +11,7 @@ import Footer from './components/Footer'
 import Prizes from './componentsByAdeboye/Prizes'
 import MediaPartners from './componentsByAdeboye/MediaPartners'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import CommunityPartners from './componentsByAdeboye/CommunityPartners'
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
         <Prizes />
         <Partners />
         <MediaPartners />
+        <CommunityPartners />
         <Footer />
       </div>
     </BrowserRouter>
