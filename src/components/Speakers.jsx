@@ -1,5 +1,5 @@
 import "./css/speakers.css";
-import sp1 from '../assets/hero/PSpeaker1.png';
+import sp1 from '../assets/hero/PSpeaker1.png'; 
 import sp2 from '../assets/hero/PSpeaker2.png';
 import sp3 from '../assets/hero/PSpeaker3.png';
 import sp4 from '../assets/hero/PSpeaker4.png';
@@ -13,6 +13,11 @@ import sp11 from '../assets/hero/PSpeaker11.png';
 import sp12 from '../assets/hero/PSpeaker12.png';
 import sp13 from '../assets/hero/PSpeaker13.png';
 import sp14 from '../assets/hero/PSpeaker14.png';
+import sp15 from '../assets/hero/PSpeaker15.png';
+import sp16 from '../assets/hero/PSpeaker16.png';
+import sp17 from '../assets/hero/PSpeaker17.png';
+import sp18 from '../assets/hero/PSpeaker18.png';
+import sp19 from '../assets/hero/PSpeaker19.png';
 
 const speakerData = [
   {
@@ -98,6 +103,36 @@ const speakerData = [
     name: 'Sam Adeleke',
     role: 'Group Head, The Bunker',
     image: sp14
+  },
+  {
+    id: 15,
+    name: 'Omomame Imafidon',
+    role: 'Lead, Polygon Guild Ibadan',
+    image: sp15
+  },
+  {
+    id: 16,
+    name: 'Damilola Oluwatunmise-Adediran',
+    role: 'Founder:CodeSchool Africa',
+    image: sp16
+  },
+  {
+    id: 17,
+    name: 'Oluwamayowa Oshidero',
+    role: 'Founder, Equilibrium Zone',
+    image: sp17
+  },
+  {
+    id: 18,
+    name: 'Edem Dorothy Ossai',
+    role: 'Regional Coordinator, NORRAG, and Executive Director MAYEIN',
+    image: sp18
+  },
+  {
+    id: 19,
+    name: 'Adewumi Onaopemipo Femi',
+    role: 'CEO @ Alusoft Technologies Ltd',
+    image: sp19
   },
 ];
 

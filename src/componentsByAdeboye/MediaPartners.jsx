@@ -11,6 +11,7 @@ import IncLogo from '../assets/mediaPartners/inclu.svg'
 import ProLogo from '../assets/mediaPartners/prot.svg'
 import PotLogo from '../assets/mediaPartners/pot.svg'
 import BunkLogo from '../assets/mediaPartners/bunc.svg'
+import MarinLogo from '../assets/mediaPartners/marin.svg'
 
 const MediaPartners = () => { 
   return (
@@ -29,6 +30,7 @@ const MediaPartners = () => {
         <img src={ProLogo} alt="" />
         <img src={PotLogo} alt="" />
         <img src={BunkLogo} alt="" />
+        <img src={MarinLogo} alt="" />
       </div>
       </Marquee> 
     </div>
