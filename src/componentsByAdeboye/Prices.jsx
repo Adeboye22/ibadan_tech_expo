@@ -1,6 +1,20 @@
-import './Prices.css'
+import './Prices.css';
 
 const Prices = () => {
+  // this function sends users to the regular payment gateway
+  const Regular = () => {
+    window.open("https://paystack.com/pay/ibtechexpo1")
+  }
+
+  // this function sends users to the VIP payment gateway
+  const Vip = () => {
+    window.open("https://paystack.com/pay/ibtechexpo3")
+  }
+  //  this function sends users to the Standard payment gateway
+  const Standard = () => {
+    window.open("https://paystack.com/pay/ibtechexpo2")
+  }
+  
   return (
     <div className='prices mx-auto' id='prices'> 
       <span className="prices-span">Ticket prices that suit every tech enthusiast</span>
@@ -19,7 +33,7 @@ const Prices = () => {
          </p>
          <article className="price-btn-mark-zuck">
             <span className="price-price-mark-zuck font-extrabold text-2xl">N1000</span>
-            <button className="get-mark-zuck-ticket"><a href="https://paystack.com/pay/ibtechexpo1" target='_blank'>Get Ticket</a></button>
+            <button className="get-mark-zuck-ticket" onClick={Regular}>Get Ticket</button>
          </article>
         </div>
         <div className='prices-box-2'>
@@ -39,7 +53,7 @@ const Prices = () => {
           </p>
           <article className="price-btn-elon-musk">
             <span className="price-price-elon-musk font-extrabold text-3xl">N20000</span>
-            <button className="get-elon-musk-ticket"><a href="https://paystack.com/pay/ibtechexpo3" target='_blank'>Get Ticket</a></button>
+            <button className="get-elon-musk-ticket" onClick={Vip}>Get Ticket</button>
           </article>
         </div>
         <div className='prices-box-3'>
@@ -56,7 +70,7 @@ const Prices = () => {
           </p>
           <article className="price-btn-jeff-bezos">
             <span className="price-price-jeff-bezos font-extrabold text-3xl">N5000</span>
-            <button className="get-jeff-bezos-ticket"> <a href="https://paystack.com/pay/ibtechexpo2" target='_blank'>Get Ticket</a></button>
+            <button className="get-jeff-bezos-ticket" onClick={Standard}>Get Ticket</button>
           </article>
         </div>
       </div>
